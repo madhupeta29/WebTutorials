@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Array Tutorial</h1>
+   Name:  <div id="name"></div><br>
+   Age : <div id="age"></div>
+   fav Sports:
+   <div id="favSports"></div>
+
+    <script>
+        var name = "Harinatha";
+        var age = 28;
+        var favSports = ["cricket", "volleyBall", "FootBal", "Chess"];
+        document.getElementById("name").innerHTML = name;
+        document.getElementById("age").innerHTML = age;
+        document.getElementById("favSports").innerHTML = favSports;
+
+
+
+
+ 
+        // console.log(numberArry.length);
+
+        // for(const sport of favSports ) {
+        //     console.log(sport);
+        // }
+
+        // for(var i =0; i<numberArry.length; i ++){
+        //     console.log(numberArry[i]);
+        // }
+
+        // numberArry.forEach(item => console.log(item));
+
+       // [1,2,3,4]
+        // numberArry = numberArry.map(num => num +10);
+        // console.log(numberArry); // [11, 12, 13, 14]
+
+        // var total = numberArry.reduce(function(acc, val) {
+        //     return acc + val;
+        // })
+        // console.log(total); //
+        var numberArry;
+         //
+
+    //     numberArry= [1,2,3,4];   
+    
+    //     console.log(numberArry);
+
+        
+
+    //     var copyNumberArry = numberArry; //deep copy
+
+    //     var copy2 = [...numberArry]; ///shalow copy
+
+    //     console.log(copy2);
+
+
+
+    //     console.log(copy2 == numberArry ); //
+    //     console.log(copyNumberArry);
+    //     console.log(copyNumberArry == numberArry);
+
+    //     console.log("after adding 5")
+
+    //     numberArry.push(5);
+    //     console.log(numberArry);
+    //     console.log(copyNumberArry);
+    //     console.log(copy2);
+    //    console.log(copyNumberArry == numberArry)
+
+
+    var lang = ["Html", "Css", "JavaScript"]; //hari knows
+    lang.push("Angular"); //las   
+    lang.unshift("GIt"); // push the first element
+    lang.pop(); //last element of arry is deleted
+    lang.shift();// first element of arry is deleted
+    console.log(lang);
+
+
+
+        
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

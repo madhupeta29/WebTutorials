@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox {
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: green;
+            border: 1px rgb(2, 37, 2) solid;
+        }
+        .flexbox div {
+            background-color: grey;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            color: white;
+            padding: 20px;
+        }
+        .gridbox {
+            background: yellowgreen;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+        }
+        .gridbox div {
+            background-color: grey;
+            
+            margin: 10px;
+            color: white;
+            padding: 20px;
+        }
+        /* .flexbox  div:nth-of-type(1) { order: 5; } 
+        .flexbox  div:nth-of-type(2) { order: 6; } 
+        .flexbox  div:nth-of-type(3) { order: 7; } 
+        .flexbox  div:nth-of-type(4) { order: 8; } 
+        .flexbox  div:nth-of-type(5) { order: 9; } 
+        .flexbox  div:nth-of-type(6) { order: 1; } 
+        .flexbox  div:nth-of-type(7) { order: 2; } 
+        .flexbox  div:nth-of-type(8) { order: 3; } 
+        .flexbox  div:nth-of-type(9) { order: 4; }  */
+    
+        .a {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  
+  .f {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+  .b {  
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 3;
+
+
+  }
+
+  .e {  
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+
+
+  }
+    </style>
+</head>
+<body>
+
+    <h1>Flex Design</h1>
+    <div class="flexbox">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+    </br>
+    <h1>Gird</h1>
+
+    <div class="gridbox">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+       
+    </div>
+</body>
+</html>
